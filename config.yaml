@@ -1,0 +1,11 @@
+---
+ - hosts: all
+   vars:
+     item: rm_test
+     motd: ramarmito
+
+   roles:
+     - python
+     - java
+     - motd
+     - create_user
