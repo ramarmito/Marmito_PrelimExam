@@ -1,0 +1,5 @@
+---
+- hosts: 192.168.56.107
+  remote_user: root
+  roles:
+    - python
